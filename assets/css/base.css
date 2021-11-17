@@ -1,0 +1,145 @@
+:root {
+    --white-color: #fff;
+    --text-color: #9a9a9a;
+    --heading-color: #555555;
+    --black-color: #000;
+    --primary-color: #14B9D5;
+    --linear-yellow: linear-gradient(to right, #ffd205, #ff9b05);
+    --linear-red: linear-gradient(to right, #f76570, #f78d65);
+    --linear-purple: linear-gradient(to right, #ba71da, #da717b);
+    --linear-green: linear-gradient(to right, #1bbc9b, #1bbc63);
+    --linear-yellow-light: linear-gradient(to right, #f3a46b, #f3c96b);
+    --linear-blue: linear-gradient(to right, #14b9d5, #14d5b1);
+    --navbar-height: 103px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+span {
+    display: inline-block;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.bdr-50 {
+    border-radius: 50px;
+}
+
+.mgl-25 {
+    margin-left: 25px;
+}
+
+.btn-43 {
+    border-radius: 50px;
+    height: 43px;
+    line-height: 43px;
+}
+
+.btn-36 {
+    border-radius: 50px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    min-width: 98px;
+    text-align: center;
+}
+.btn-29 {
+    border-radius: 50px;
+    height: 29px;
+    line-height: 29px;
+}
+.btn-26 {
+    border-radius: 50px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.btn--white {
+    background-color: var(--white-color);
+}
+
+.btn--purple {
+    background-color: #BA71DA;
+}
+
+.btn--green {
+    background-color: #1BBC9B;
+    color: var(--white-color);
+}
+.btn--yellow {
+    background-color: #ffd205;
+    color: var(--white-color);
+}
+.btn--pink {
+    background-color: #F76570;
+    color: var(--white-color);
+}
+.btn--linear-yellow {
+    background-image: var( --linear-yellow);
+}
+.btn--linear-red {
+    background-image: var(--linear-red);
+}
+.btn--linear-purple {
+    background-image: var(--linear-purple);
+}
+.btn--linear-green {
+    background-image: var(--linear-green);
+}
+.btn--linear-yellow-light {
+    background-image: var(--linear-yellow-light);
+}
+.btn--linear-blue {
+    background-image: var(--linear-blue);
+}
+.text-btn {
+    height: 36px;
+    line-height: 36px;
+}
+
+.text-btn-orange {
+    color: #f3a46b;
+}
+
+.text-btn-green {
+    color: #1bbc9b;
+}
+
+.text-underline u {
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.text-underline u::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    bottom: 11px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.lt-spacing-2 {
+    letter-spacing: 2px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
